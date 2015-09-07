@@ -8,20 +8,7 @@ The problem set is organized as follows:
 - Inside each folder you will find:
     - problem_name.txt: A brief description of the problem and what the expected inputs and outputs are
     - inputs: A folder containing a set of sample inputs with which you can test your solutions
-    - outputs: A folder containing the expected outputs corresponding to the tests found in the inputs folder
+    - outputs: A folder containing the expected outputs corresponding to the tests found in the inputs folder. Our solutions are not perfect, so you might find that there are some mistakes in our output. Please let us know. Preferably, open an issue and explain it.
     - hint[n].txt: You may find several of these files inside the folder. These contain hints that will point you to the right solution
 
-# Interviews_101
-This repository will is your homework server and programming interview questions bank
-
-##Stock Picker
-
-Your Task
-Implement a method #stock_picker that takes in an array of stock prices, one for each hypothetical day. It should return a pair of days representing the best day to buy and the best day to sell. Days start at 0.
-
-    > stock_picker([17,3,6,9,15,8,6,1,10])
-    => [1,4]  # for a profit of $15 - $3 = $12
-Quick Tips:
-
-You need to buy before you can sell
-Pay attention to edge cases like when the lowest day is the last day or the highest day is the first day.
+We have a ded the stockPicker problem that we saw in class as a sample of what the problems will look like

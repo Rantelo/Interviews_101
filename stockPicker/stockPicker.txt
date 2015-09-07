@@ -1,0 +1,28 @@
+Your task is to implement a function called stockPicker which takes as input an array of integers
+which are meant to represent the price of a stock throughout a period of time (A[i] represents the
+price of the stock in day i) and outputs a pair of days which would yield the best profit to someone
+looking to buy the stock. For example:
+	[17,3,6,9,15,8,6,1,10]
+	For this input, we should output [1, 4] for buying in day 1 (prices is 3) and selling in day 4
+	(price is 15) would give us a profit of 12
+
+Input:
+A text file which contains a single number n in its first line. This number indicates the number of 
+price sets that will be provided. The following n lines contain a list of space separated integers
+the first of which indicates the size of the price set, the rest represent the actual price set.
+For the previous example the file would contain:
+
+1
+9 17 3 6 9 15 8 6 1 10
+
+Output
+You should output a line containing the following values separated by spaces for each price set in the
+input file: the maximized profit, the index of the buy day and the index of the sell day. So, for the previous
+input file, you should output:
+
+12 1 4
+
+Notes:
+In some instances, there are multiple correct answers, the provided outputs do not consider all of them so if you
+find a mismatch with your output verify that the profits match and that your buy and sell days actually yield said
+profit 
