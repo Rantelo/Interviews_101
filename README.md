@@ -11,4 +11,4 @@ The problem set is organized as follows:
     - outputs: A folder containing the expected outputs corresponding to the tests found in the inputs folder. Our solutions are not perfect, so you might find that there are some mistakes in our output. Please let us know. Preferably, open an issue and explain it.
     - hint[n].txt: You may find several of these files inside the folder. These contain hints that will point you to the right solution
 
-We have a ded the stockPicker problem that we saw in class as a sample of what the problems will look like
+We have added the stockPicker problem that we saw in class as a sample of what the problems will look like
