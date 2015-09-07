@@ -6,7 +6,7 @@ This will also allow you to look at your peers' work, be it to help them or to b
 The problem set is organized as follows:
 - Each folder is named after a problem
 - Inside each folder you will find:
-    - problem_name.txt: A brief description of the problem
+    - problem_name.txt: A brief description of the problem and what the expected inputs and outputs are
     - inputs: A folder containing a set of sample inputs with which you can test your solutions
     - outputs: A folder containing the expected outputs corresponding to the tests found in the inputs folder
     - hint[n].txt: You may find several of these files inside the folder. These contain hints that will point you to the right solution
