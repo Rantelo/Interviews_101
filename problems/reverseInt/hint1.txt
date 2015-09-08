@@ -1,0 +1,8 @@
+Think how you would approach the problem if instead of giving you
+the number as an integer, we gave you an array containing each of
+its digits. For example:
+	Instead of 101, [1, 0, 1]
+
+As mentioned in the description you only are allowed to use O(1)
+space, but think how could you iterate over the digits of the input
+similarly as how you would an array
