@@ -1,0 +1,49 @@
+You are given a grid that represents a map of a geographic
+each cell in the grid contains either land or sea. Your job
+is to determine how many islands exist in said map.
+
+For example:
+
+-------------
+| L | S | L |
+| L | L | S |
+| L | S | L |
+-------------
+L: Land
+S: Sea
+
+In this map we have 3 islands. The first column and the middle
+cell form one island and the other two L cells make the rest.
+
+NOTE: The grid is not necessarily a square
+
+Input:
+A line containing a number n
+n of the following:
+	A line containing two numbers a and b which represent the size of the grid (a rows and b columns)
+	a lines containing b 0s or 1s where 1s 0s represent a sea cell and 1s represent land cells
+
+For example:
+
+3
+3 3
+1 0 1
+1 1 0
+1 0 1
+2 3
+1 1 0
+0 0 1
+5 2
+0 1
+1 0
+1 1
+0 1
+1 1
+
+Output:
+A line containing the number of islands for each of the inputs.
+For the previous example, you should output:
+
+3
+2
+2 
