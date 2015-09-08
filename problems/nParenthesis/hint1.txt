@@ -1,0 +1,2 @@
+First try to come up with a way to print all possible combinations,
+then try to modify that algorithm to enforce the rules
