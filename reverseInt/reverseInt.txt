@@ -1,0 +1,26 @@
+Reverse the digits of an integer. For example:
+	2015 -> 5102
+	738  -> 837
+You should do this using O(1) extra memory (i.e. don't turn it into a string)
+
+Input:
+A line containing a number n
+n + 1 lines containing the numbers to be reversed
+For example:
+
+5
+123
+-5030
+2015
+739
+1504393
+
+Output:
+A line containing the reversed numbers
+For the previous example, you should output:
+
+321
+-305
+5102
+937
+3934051

@@ -1,0 +1,29 @@
+Determine whether an integer is a palindrome. For example
+	10 is not a palindrome
+	101 is a palindrome
+	1991 is a plindrome
+	5 is a palindrome
+	11 is a palindrome
+Assume you will only get unsigned values. You must do this 
+using O(1) extra space (i.e. don't turn it into a string)
+
+Input:
+A line containing a sigle number n
+n lines containing test cases. For example:
+
+5
+10
+101
+1991
+5
+11
+
+Output:
+n lines containing 'yes' or 'no' according to whether the
+corresponding number is a palindrome. For example:
+
+no
+yes
+yes
+yes
+yes 
