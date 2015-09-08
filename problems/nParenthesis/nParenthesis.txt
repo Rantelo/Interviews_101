@@ -1,0 +1,56 @@
+Print all legal combinations of n pairs of parenthesis
+For exmaple:
+	n = 3
+	((()))
+	(()())
+	(())()
+	()(())
+	()()()
+
+())(() and )()()( are not legal combinations
+NOTE: The order in which you print the legal combinations
+is not specified, so consider that when comparing your outputs
+with the provided ones
+
+Input:
+A line containing a number n
+n lines conatining a single number
+
+For example:
+
+3
+1
+4
+3
+
+Outout:
+For each of the lines in the input file (except for the first one),
+you should output:
+	A line containing the c, the number of legal combinations for the numbar in that line
+	c lines containing each of said combinations
+
+For the previous example:
+
+1
+()
+14
+(((())))
+((()()))
+((())())
+((()))()
+(()(()))
+(()()())
+(()())()
+(())(())
+(())()()
+()((()))
+()(()())
+()(())()
+()()(())
+()()()()
+5
+((()))
+(()())
+(())()
+()(())
+()()()

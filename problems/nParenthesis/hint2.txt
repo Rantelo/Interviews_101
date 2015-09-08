@@ -1,0 +1,3 @@
+The only real restriction is that you cannot close a parenthesis
+unless there's at least one open parenthesis without a matching
+closing parenthesis earlier in the string
