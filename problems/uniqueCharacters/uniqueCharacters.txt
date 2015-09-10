@@ -1,0 +1,31 @@
+Determine whether a string contains only unique characters
+For example:
+	abcdefg does contain only unique characters,
+	wheras aba doesn't (as it contains a twice)
+You are assured that you will only get ASCII characters
+
+NOTE: You should be able to do this using either O(1) or O(n)
+space. Try implementing both and think of why you would choose
+one over the other
+
+Input:
+A line containing a number n
+A line containing a number s indicating the size of the string
+to be checkd followed by the string itself
+
+For example:
+
+3
+5 abcde
+8 ancnejfjq
+10 mcgjqisuryl
+
+
+Output:
+A line containing yes or no for every of the n strings in the input
+
+For the previous example:
+
+yes
+no
+yes
