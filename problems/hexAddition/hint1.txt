@@ -1,0 +1,3 @@
+A hex digit corresponds to 4 bits, try to think about what
+bit operation might help you move extract the 4 LSB (least
+significant bits) of a number
