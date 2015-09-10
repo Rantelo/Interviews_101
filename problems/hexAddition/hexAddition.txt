@@ -1,0 +1,30 @@
+Your task is to implement an hex adder. You will be given
+two unsingned integers as strings of their hex representation
+and you should output another string containing the hex
+representation of their sum.
+
+There are no restrictions to the size on the size on the input
+other than both values and their sum should be able to fit in
+memory (as strings). So, for large values, you might not be able
+to turn them into actual ints
+
+NOTE: All strings will be using lowercase letters
+
+Input:
+A line contaning a single number n
+n lines containing two strings representing the numbers to be
+added
+
+For example:
+3
+a b
+1 2b
+12 3a
+
+Output:
+n lines containing the sum of both the numbers on each line
+
+For the previous example:
+15
+2c
+4c
