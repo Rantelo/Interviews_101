@@ -29,7 +29,7 @@ For example:
 2 4 6 8 10
 9 7
 3 15 123 93 12 3 901 2 123
-27 31 49 48 65 115 5000
+27 31 48 49 65 115 5000
 
 Ouput:
 A line containing the merged arrays fr each of the k examples in the input.
